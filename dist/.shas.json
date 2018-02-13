@@ -1,0 +1,234 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "blog.html",
+        "sha": "3e0f07369077276e5e2570c7f00a77368e82901b"
+      }
+    ],
+    "outputSha": "8bd4d181d50fd174561eb43245615cb114ec061f",
+    "input": "blog.html",
+    "output": [
+      "blog.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "contact.html",
+        "sha": "9d7ace5f932295e77fe0fc8f305983b6b5138d64"
+      }
+    ],
+    "outputSha": "2efda13506628c57fb0237f98963bb2574bd4aed",
+    "input": "contact.html",
+    "output": [
+      "contact.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "b51fcdd538c72ba07d190a7a78d746ae2283dcaa"
+      }
+    ],
+    "outputSha": "f714e26c1d14bf6796f581f6c55ef4d04cb76ec3",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio.html",
+        "sha": "0fecb3a4365f513272a32b822a9d9a61238a7201"
+      }
+    ],
+    "outputSha": "f1e0195903446637ebd05088abdf83431980ac21",
+    "input": "portfolio.html",
+    "output": [
+      "portfolio.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/_base.scss",
+        "sha": "274f5dfa01f778b76cc2325ddf94aefe0db00c79"
+      }
+    ],
+    "outputSha": "274f5dfa01f778b76cc2325ddf94aefe0db00c79",
+    "input": "styles/_base.scss",
+    "output": [
+      "styles/_base.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/_footer.scss",
+        "sha": "07a515e53c5bfef17687184f0043775f585afed3"
+      }
+    ],
+    "outputSha": "07a515e53c5bfef17687184f0043775f585afed3",
+    "input": "styles/_footer.scss",
+    "output": [
+      "styles/_footer.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/_menu.scss",
+        "sha": "d9101c49fc94170d283cd6305acc33419d12addd"
+      }
+    ],
+    "outputSha": "d9101c49fc94170d283cd6305acc33419d12addd",
+    "input": "styles/_menu.scss",
+    "output": [
+      "styles/_menu.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/_mixins.scss",
+        "sha": "80333beef6c0b0d98eaf98351ebf82ab0738dde4"
+      }
+    ],
+    "outputSha": "80333beef6c0b0d98eaf98351ebf82ab0738dde4",
+    "input": "styles/_mixins.scss",
+    "output": [
+      "styles/_mixins.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/_variables.scss",
+        "sha": "730b9424f26fe8cd5a85c3ac5a4efd97a18fa118"
+      }
+    ],
+    "outputSha": "730b9424f26fe8cd5a85c3ac5a4efd97a18fa118",
+    "input": "styles/_variables.scss",
+    "output": [
+      "styles/_variables.scss"
+    ]
+  },
+  {
+    "type": "node-sass@4.7.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/styles.scss",
+        "sha": "d38dda265304376b35f6a9e4f723bf1b5d99a016"
+      },
+      {
+        "file": "styles/_base.scss",
+        "sha": "274f5dfa01f778b76cc2325ddf94aefe0db00c79"
+      },
+      {
+        "file": "styles/_menu.scss",
+        "sha": "d9101c49fc94170d283cd6305acc33419d12addd"
+      },
+      {
+        "file": "styles/_variables.scss",
+        "sha": "730b9424f26fe8cd5a85c3ac5a4efd97a18fa118"
+      },
+      {
+        "file": "styles/_mixins.scss",
+        "sha": "80333beef6c0b0d98eaf98351ebf82ab0738dde4"
+      },
+      {
+        "file": "styles/_footer.scss",
+        "sha": "07a515e53c5bfef17687184f0043775f585afed3"
+      }
+    ],
+    "outputSha": "2893eab953a9731df99b0d1e274c5458449eebef",
+    "input": "styles/styles.scss",
+    "output": [
+      "styles/styles.css.map",
+      "styles/styles.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/abc2.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/abc2.html",
+    "output": [
+      "portfolio/abc2.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/e4e.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/e4e.html",
+    "output": [
+      "portfolio/e4e.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/ftc.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/ftc.html",
+    "output": [
+      "portfolio/ftc.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/yale.html",
+        "sha": "08fae477610885ef4beed616830849b3a69bfdec"
+      }
+    ],
+    "outputSha": "df18fd56a954723221db9bab1573a3894b75c7a1",
+    "input": "portfolio/yale.html",
+    "output": [
+      "portfolio/yale.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "font-awesome/css/font-awesome.css",
+        "sha": "0140952c64e3f2b74ef64e050f2fe86eab6624c8"
+      }
+    ],
+    "outputSha": "54410ad8d33cecb7ba74c7ed20e05b6a23a9b9b9",
+    "input": "font-awesome/css/font-awesome.css",
+    "output": [
+      "font-awesome/css/font-awesome.css.map",
+      "font-awesome/css/font-awesome.css"
+    ]
+  }
+]
