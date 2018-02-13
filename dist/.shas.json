@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "blog.html",
-        "sha": "3e0f07369077276e5e2570c7f00a77368e82901b"
+        "sha": "a35f1c3aa12f32cf66d0d9ace31f10523aac8c66"
       }
     ],
-    "outputSha": "8bd4d181d50fd174561eb43245615cb114ec061f",
+    "outputSha": "9985dfee0479048b4d9e45ac26905d61073fd37e",
     "input": "blog.html",
     "output": [
       "blog.html"
@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "contact.html",
-        "sha": "9d7ace5f932295e77fe0fc8f305983b6b5138d64"
+        "sha": "061c32036d5777799ce88be1a3145c7e2f8b281e"
       }
     ],
-    "outputSha": "2efda13506628c57fb0237f98963bb2574bd4aed",
+    "outputSha": "8746e7af1922bd2577857717835ad021c59b2e3f",
     "input": "contact.html",
     "output": [
       "contact.html"
@@ -32,10 +32,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "b51fcdd538c72ba07d190a7a78d746ae2283dcaa"
+        "sha": "09988faf63c0898f1a11828c711316eda446b101"
       }
     ],
-    "outputSha": "f714e26c1d14bf6796f581f6c55ef4d04cb76ec3",
+    "outputSha": "46895357913deb573cf06e84d7d3bb3c6537b27c",
     "input": "index.html",
     "output": [
       "index.html"
@@ -46,13 +46,69 @@
     "inputSha": [
       {
         "file": "portfolio.html",
-        "sha": "0fecb3a4365f513272a32b822a9d9a61238a7201"
+        "sha": "d6920a36332d4b540f9da8d5eed3f09185cd5bb7"
       }
     ],
-    "outputSha": "f1e0195903446637ebd05088abdf83431980ac21",
+    "outputSha": "19b79c3c6455376f206f1142f036535f89ea08a2",
     "input": "portfolio.html",
     "output": [
       "portfolio.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/abc2.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/abc2.html",
+    "output": [
+      "portfolio/abc2.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/e4e.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/e4e.html",
+    "output": [
+      "portfolio/e4e.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/ftc.html",
+        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
+      }
+    ],
+    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
+    "input": "portfolio/ftc.html",
+    "output": [
+      "portfolio/ftc.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "portfolio/yale.html",
+        "sha": "08fae477610885ef4beed616830849b3a69bfdec"
+      }
+    ],
+    "outputSha": "df18fd56a954723221db9bab1573a3894b75c7a1",
+    "input": "portfolio/yale.html",
+    "output": [
+      "portfolio/yale.html"
     ]
   },
   {
@@ -158,62 +214,6 @@
     "output": [
       "styles/styles.css.map",
       "styles/styles.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/abc2.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/abc2.html",
-    "output": [
-      "portfolio/abc2.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/e4e.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/e4e.html",
-    "output": [
-      "portfolio/e4e.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/ftc.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/ftc.html",
-    "output": [
-      "portfolio/ftc.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/yale.html",
-        "sha": "08fae477610885ef4beed616830849b3a69bfdec"
-      }
-    ],
-    "outputSha": "df18fd56a954723221db9bab1573a3894b75c7a1",
-    "input": "portfolio/yale.html",
-    "output": [
-      "portfolio/yale.html"
     ]
   },
   {
