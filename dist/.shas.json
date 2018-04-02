@@ -59,62 +59,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "portfolio/abc2.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/abc2.html",
-    "output": [
-      "portfolio/abc2.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/e4e.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/e4e.html",
-    "output": [
-      "portfolio/e4e.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/ftc.html",
-        "sha": "49a8f0530e089144780192d1ed02bd8f3f64b38a"
-      }
-    ],
-    "outputSha": "e649ec9efbb2f3cdb7c1b60658a5c40147f8d5e8",
-    "input": "portfolio/ftc.html",
-    "output": [
-      "portfolio/ftc.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "portfolio/yale.html",
-        "sha": "08fae477610885ef4beed616830849b3a69bfdec"
-      }
-    ],
-    "outputSha": "df18fd56a954723221db9bab1573a3894b75c7a1",
-    "input": "portfolio/yale.html",
-    "output": [
-      "portfolio/yale.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "styles/_base.scss",
         "sha": "274f5dfa01f778b76cc2325ddf94aefe0db00c79"
       }
