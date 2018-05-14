@@ -3,20 +3,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "blog.html",
-        "sha": "a35f1c3aa12f32cf66d0d9ace31f10523aac8c66"
-      }
-    ],
-    "outputSha": "9985dfee0479048b4d9e45ac26905d61073fd37e",
-    "input": "blog.html",
-    "output": [
-      "blog.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "contact.html",
         "sha": "9d4db8ba24757f6ce8557859822bc1ebf79997ce"
       }
