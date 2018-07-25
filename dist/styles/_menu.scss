@@ -3,8 +3,15 @@
 */
 
 header {
+  background: $white;
   border-top: 15px solid $purple;
-  padding: 1rem 5% 0;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 0px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 5%;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 
   ul {
     margin: 0;
@@ -13,18 +20,16 @@ header {
     float: none;
 
     li {
-      // border: 2px solid red;
       display: inline-block;
       padding: 0;
-      margin: 0;
+      margin: 0 0 0 0.5rem;
       list-style-type: none;
-      list-style-image: none;
       position: relative;
     }
   }
 
   svg {
-    height: 90px;
+    height: 80px;
   }
 
   a svg #alpha-cd {
@@ -48,7 +53,7 @@ header {
   .align-right a {
     padding: 10px;
     color: $teal;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     text-shadow: none;
     -webkit-transition: color 0.3s;
@@ -111,53 +116,16 @@ header {
       }
     }
   }
-
-  &.container {
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    -ms-grid-columns: 1fr 2fr;
-    -ms-grid-rows: auto;
-
-    .align-left {
-      //fill the first column, first row
-
-      grid-column: 1;
-      grid-row: 1;
-      -ms-grid-column: 1;
-      -ms-grid-row: 1;
-      justify-self: start;
-      align-self: center;
-    }
-
-    .align-right {
-      //fill the second column, first row
-
-      grid-column: 2;
-      grid-row: 1;
-      -ms-grid-column: 2;
-      -ms-grid-row: 1;
-      justify-self: end;
-      align-self: center;
-    }
-  }
 }
 
 /* Mobile Styles */
 @media (max-width: 700px) {
   header ul li {
     display: block;
+    margin: 0;
   }
 
-  header.container {
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-columns: 1fr 1fr;
-    .align-left {
-      justify-self: end;
-    }
-    .align-right {
-      justify-self: start;
-    }
+  header .align-right a {
+    font-size: 20px;
   }
 }

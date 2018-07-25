@@ -5,7 +5,6 @@
 *,
 html {
   box-sizing: border-box;
-  color: $gray;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -18,6 +17,7 @@ html {
 
 body {
   display: flex;
+  color: $gray;
   min-height: 100vh;
   flex-direction: column;
 }
@@ -40,8 +40,12 @@ a,
 a .fa {
   color: $teal;
 
+  @include transition;
+
   &:hover {
     color: $darkteal;
+
+    @include transition;
   }
 }
 
@@ -90,17 +94,55 @@ strong {
   0%, 100% {
     color: red;
   }
+
   50% {
     color: firebrick;
   }
 }
 
+/* Flex */
+.flex-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  -ms-grid-columns: 1fr 2fr;
+  -ms-grid-rows: auto;
+
+  .align-left {
+    //fill the first column, first row
+
+    grid-column: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    justify-self: start;
+    align-self: center;
+  }
+
+  .align-right {
+    //fill the second column, first row
+
+    grid-column: 2;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    justify-self: end;
+    align-self: center;
+  }
+}
+
 /* Layouts */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1130px;
+  width: 100%;
+}
 
 .content {
   flex: 1;
   padding: 3rem 5% 5rem;
-  margin: 0 auto;
+  margin: 6.5rem auto 0;
   max-width: 800px;
   width: 100%;
 }
@@ -206,6 +248,35 @@ strong {
       grid-row: 4;
       -ms-grid-column: 1;
       -ms-grid-row: 4;
+    }
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  header .flex-container {
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+
+    .align-left {
+      justify-self: end;
+    }
+
+    .align-right {
+      justify-self: start;
+    }
+  }
+
+  footer .flex-container {
+    grid-template-columns: 2fr 1fr;
+    -ms-grid-columns: 2fr 1fr;
+
+    .align-left {
+      justify-self: start;
+    }
+
+    .align-right {
+      justify-self: end;
     }
   }
 }
