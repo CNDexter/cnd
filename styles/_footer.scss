@@ -7,5 +7,13 @@
   color: $white;
   margin-top: auto;
   padding: 1rem 5%;
-  text-align: right;
+
+  a,
+  a .fa {
+    color: $white;
+
+    &:hover {
+      color: $teal;
+    }
+  }
 }
